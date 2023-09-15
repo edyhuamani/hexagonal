@@ -1,0 +1,20 @@
+CAPA DOMINIO ES UTILIZADA POR LA CAPA DE APLICACION
+APLICACION USA LA CAPA DE DOMINIO
+LOS PORTS SIEMPRE SON INTERFACES
+LOS ADAPTER SON IMPLEMENTACIONES
+
+
+
+2.Programadores.io()
+
+Crea y devuelve un Programador destinado al trabajo vinculado a IO. El grupo de subprocesos puede
+ampliarse según sea necesario.
+
+3.Programadores.newThread()
+
+Crea y devuelve un Programador que crea un nuevo Hilo para cada unidad de trabajo.
+
+4.Programadores.trampolín()
+
+Crea y devuelve un Programador que pone en cola el trabajo en el hilo actual para que se
+ejecute después de que se complete el trabajo actual.
